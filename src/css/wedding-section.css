@@ -1,0 +1,124 @@
+.ant-btn {
+    margin-right: 8px;
+}
+.ant-select-selector{
+    width: 74px !important;
+}
+
+.sec-stat{
+    width: 90%;
+    margin:0 auto;
+}
+
+.title-stat{
+    margin-top: 10px;
+}
+
+
+.ant-form-item{
+    margin-bottom: 10px;
+}
+
+.sum-stat{
+    margin: 5px 10px 10px 10px;
+    padding: 10px;
+}
+.style-p{
+    margin-top: 9px;
+    margin-bottom: unset;
+}
+
+.btn-action{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-add{
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+    .sec-stat{
+        width: 100%;
+    }
+    body .container{
+        max-width: 96.5% !important;
+    }
+    .ant-table-content{
+        overflow: auto;
+    }
+    .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table{
+        display: table;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sec-stat{
+        width: 97% !important;
+    }
+    body .container{
+        max-width: 96.5% !important;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .sec-stat{
+        width: 97% !important;
+    }
+    body .container{
+        max-width: 96.5% !important;
+    }
+
+    .ant-form{
+        margin: 10px;
+    }
+
+    .ant-btn{
+        padding: 4px 9px !important;
+    }
+    /*.ant-form-item{*/
+    /*    margin-right: 30px !important;*/
+    /*}*/
+
+}
+
+@media only screen and (max-width: 1140px) {
+    .sec-stat{
+        width: 97% !important;
+    }
+    body .container{
+        max-width: 96.5% !important;
+    }
+
+    .ant-form-item-control-input-content{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .ant-form{
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1141px) {
+    .sec-stat{
+        width: 97% !important;
+    }
+    body .container{
+        max-width: 96.5% !important;
+    }
+
+    .ant-form-item-control-input-content{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .ant-form{
+        margin: 10px;
+    }
+
+}

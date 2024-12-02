@@ -1,0 +1,21 @@
+/*.table-section{*/
+/*    max-width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+body .container{
+    max-width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    body .container{
+        max-width: 100%;
+    }
+    .ant-table-content{
+        overflow: auto;
+    }
+    .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table{
+        display: table;
+        width: 800px;
+    }
+}

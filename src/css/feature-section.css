@@ -1,0 +1,37 @@
+.sec-stat{
+    width: 90%;
+    margin:0 auto;
+}
+
+.title-stat{
+    margin-top: 10px;
+}
+
+.btn-feature{
+    padding: 10px 0 10px 10px;
+}
+
+.btn-mg-right{
+    margin-right: 5px;
+}
+
+.mg-system{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec-stat{
+        width: 100%;
+    }
+    body .container{
+        max-width: 95%;
+    }
+    .ant-table-content{
+        overflow: auto;
+    }
+    .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table{
+        display: table;
+        width: 800px;
+    }
+}
+

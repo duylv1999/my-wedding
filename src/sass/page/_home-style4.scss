@@ -1,0 +1,92 @@
+/*======================================
+ 7. Home-style-4 
+ =======================================*/
+
+
+/*--------------------------------------------------------------
+7.1 wpo-portfolio-section-s3
+--------------------------------------------------------------*/
+
+.wpo-portfolio-section-s3{
+	padding-bottom: 0;
+	.portfolio-grids{
+		.grid{
+			width: 33.33%;
+
+			@media(max-width:991px){
+                width: 50%;
+			}
+			@media(max-width:575px){
+                width: 100%;
+			}
+
+			&:last-child{
+				width: 33.33%;
+
+				@media(max-width:991px){
+                	width: 50%;
+				}
+				@media(max-width:575px){
+					width: 100%;
+				}
+			}
+
+			.img-holder .hover-content i {
+				font-size: 30px;
+				color: $dark-gray;
+			}
+
+			.img-holder{
+				&:before{
+					display: none;
+				}
+
+				.react-fancybox{
+					.thumbnail{
+						&:before{
+							position: absolute;
+							left: 2%;
+							top: 2%;
+							width: 96%;
+							height: 96%;
+							content: "\e61a";
+							background: rgba(255,255, 255, 0.8);
+							opacity: 0;
+							transition: all .3s;
+							transform: scale(0);
+							font-family: 'themify';
+							display: flex;
+							justify-content: center;
+							flex-direction: column;
+							text-align: center;
+							font-size: 30px;
+    						color: #002642;
+							cursor: pointer;
+						}
+
+						&:hover{
+							&:before{
+								opacity: 1;
+								transform: scale(1);
+							}
+						}
+
+						img{
+							max-width: 100%;
+						}
+						
+					}
+				}
+			}
+
+			.close-btn{
+				width: unset;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.react-fancybox .box{
+	z-index: 9999;
+}
